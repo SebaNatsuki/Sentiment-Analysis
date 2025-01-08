@@ -2,7 +2,7 @@
 This project uses textblob to analyse and classify statements into Positive , negative and neutral statements. 
 
 # How to run
-Install TextBlob using ' pip install textblob'
+Install TextBlob using ' pip install textblob' -->
 run the code
 
 # Example code

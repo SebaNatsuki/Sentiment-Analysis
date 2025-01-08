@@ -5,9 +5,9 @@ text = input('Enter a sentence: ')
 analysis = TextBlob(text)
 
 if analysis.sentiment.polarity > 0:
-    print('Positive response')
+    print('Sentiment : Positive response')
 elif analysis.sentiment.polarity < 0:
-    print('Negative response')
+    print('Sentiment : Negative response')
 else:
-    print('neutral response')
+    print('Sentiment : neutral response')
     
